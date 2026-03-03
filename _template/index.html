@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Title — pds.ai</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <a href="/" class="back-link">&larr; pds.ai</a>
+      <h1>Dashboard Title</h1>
+      <p class="tagline">Brief description of this dataset and what it shows.</p>
+    </header>
+
+    <!-- Stats summary -->
+    <section class="stats-row">
+      <div class="stat-card">
+        <div class="value">0</div>
+        <div class="label">Metric One</div>
+      </div>
+      <div class="stat-card">
+        <div class="value">0</div>
+        <div class="label">Metric Two</div>
+      </div>
+      <div class="stat-card">
+        <div class="value">0</div>
+        <div class="label">Metric Three</div>
+      </div>
+      <div class="stat-card">
+        <div class="value">0</div>
+        <div class="label">Metric Four</div>
+      </div>
+    </section>
+
+    <!-- Charts -->
+    <section class="chart-grid">
+      <div class="chart-container">
+        <h3>Chart One</h3>
+        <canvas id="chart1"></canvas>
+      </div>
+      <div class="chart-container">
+        <h3>Chart Two</h3>
+        <canvas id="chart2"></canvas>
+      </div>
+    </section>
+
+    <!-- Data table -->
+    <section class="chart-container">
+      <h3>Raw Data</h3>
+      <div style="overflow-x: auto;">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Column A</th>
+              <th>Column B</th>
+              <th>Column C</th>
+              <th>Column D</th>
+            </tr>
+          </thead>
+          <tbody id="data-table-body">
+            <!-- Populated by app.js -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <a href="/">pds.ai</a>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
