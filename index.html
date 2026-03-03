@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>pds.ai</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pds.ai</title>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/pds_ai_favicon.png">
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #373027; /* dark gray */
+    color: #fabf9a; /* pale, pinkish-orange */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    max-width: 50%; /* You can adjust this value */
+    max-height: 50vh; /* And/or this value to resize your image */
+    height: auto; /* Maintains the aspect ratio */
+  }
+
+  .logo-text {
+    margin-top: 20px;
+    font-size: 2em;
+  }
+</style>
 </head>
 <body>
-  <div class="container">
-    <header class="site-header">
-      <h1>pds.ai</h1>
-      <p class="tagline">Data dashboards — datasets in, visuals out</p>
-    </header>
 
-    <main>
-      <div class="dashboard-grid">
-        <!-- Dashboard cards go here. Copy this template for each new dashboard:
-        <a href="/example-project/" class="card">
-          <h3>Project Name</h3>
-          <p>Brief description of the dataset and what the dashboard shows.</p>
-          <div class="meta">2026-03-03</div>
-        </a>
-        -->
-      </div>
+<img src="assets/full_body_pds.png" alt="pds.ai Logo">
+<div class="logo-text">pds.ai</div>
 
-      <div class="empty-state">
-        <div class="icon">&#9632;</div>
-        <p>Dashboards coming soon.</p>
-      </div>
-    </main>
-
-    <footer class="site-footer">
-      pds.ai
-    </footer>
-  </div>
 </body>
 </html>
