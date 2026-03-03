@@ -1,0 +1,11 @@
+/* Dashboard-specific overrides — extend ../style.css */
+
+/* Accent color override (change per dashboard) */
+/*
+:root {
+  --accent: #ff6b6b;
+  --accent-dim: #ff6b6b33;
+}
+*/
+
+/* Additional dashboard-specific styles go here */
